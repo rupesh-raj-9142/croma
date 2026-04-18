@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
   <AuthProvider>
     <ChakraProvider>
       <CartProvider>
-        <BrowserRouter>
+        <BrowserRouter basename="/croma">
           <App />
         </BrowserRouter>
       </CartProvider>
